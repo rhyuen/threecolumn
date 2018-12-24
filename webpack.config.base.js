@@ -32,7 +32,7 @@ module.exports = {
             template: path.join(__dirname, "src/templates/index.html"),
             filename: "index.html",
             inject: "body",
-            title: "Front End Boilerplate Project"
+            title: "Three Columns"
         }),
         new CopyWebpackPlugin([{
             from: "./src/images/*.ico",

@@ -5,7 +5,7 @@ const {
 const merge = require("webpack-merge");
 
 module.exports = merge(base, {
-    mode: "production",
+    mode: "development",
     plugins: [
         new BundleAnalyzerPlugin({
             analyzerMode: "static",
