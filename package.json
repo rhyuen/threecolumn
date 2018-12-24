@@ -50,7 +50,7 @@
   },
   "scripts": {
     "start": "webpack",
-    "build": "webpack --config webpack.config.prod.js ./src/Index.jsx",
+    "build": "webpack --mode development --config webpack.config.prod.js ./src/Index.jsx",
     "dev": "webpack-dev-server --config webpack.config.dev.js --open",
     "dev:hot": "npm run dev -- --hot",
     "format": "prettier --write \"src/*.{js,jsx,css,json}\" ",
