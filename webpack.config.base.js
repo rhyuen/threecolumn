@@ -35,7 +35,7 @@ module.exports = {
             title: "Three Columns"
         }),
         new CopyWebpackPlugin([{
-            from: "./src/images/*.ico",
+            from: "src/images/*.ico",
             flatten: true,
             test: /\.(ico)$/,
             ignore: ["*.jsx"],
