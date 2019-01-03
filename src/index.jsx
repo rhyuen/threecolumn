@@ -9,10 +9,8 @@ if (process.env.NODE_ENV === "development") {
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <RootErrorBoundary>
-      <App />
-    </RootErrorBoundary>
-  </React.StrictMode>,
+  <RootErrorBoundary>
+    <App />
+  </RootErrorBoundary>,
   document.getElementById("app")
 );
