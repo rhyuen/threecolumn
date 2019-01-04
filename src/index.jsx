@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import RootErrorBoundary from "./RootErrorBoundary.jsx";
-import App from "./App.jsx";
+import Root from "./Root.jsx";
 
 if (process.env.NODE_ENV === "development") {
   const axe = require("react-axe");
@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.render(
   <RootErrorBoundary>
-    <App />
+    <Root />
   </RootErrorBoundary>,
   document.getElementById("app")
 );
